@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeViewController.h
 //  FirstTest
 //
 //  Created by Atikur Rahman on 12/4/13.
@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HomeViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+@interface HomeViewController : UIViewController {
     
+    IBOutlet UILabel *displayLabel;
     
 }
-
-@property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -16,6 +16,8 @@
 		60D0346A184F9432004CEA0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D03469184F9432004CEA0B /* Default.png */; };
 		60D0346C184F9432004CEA0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D0346B184F9432004CEA0B /* Default@2x.png */; };
 		60D0346E184F9432004CEA0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D0346D184F9432004CEA0B /* Default-568h@2x.png */; };
+		60D03477184F946D004CEA0B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D03475184F946D004CEA0B /* HomeViewController.m */; };
+		60D03478184F946D004CEA0B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D03476184F946D004CEA0B /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		60D03469184F9432004CEA0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		60D0346B184F9432004CEA0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		60D0346D184F9432004CEA0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60D03474184F946D004CEA0B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		60D03475184F946D004CEA0B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		60D03476184F946D004CEA0B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				60D03466184F9432004CEA0B /* AppDelegate.h */,
 				60D03467184F9432004CEA0B /* AppDelegate.m */,
+				60D03474184F946D004CEA0B /* HomeViewController.h */,
+				60D03475184F946D004CEA0B /* HomeViewController.m */,
+				60D03476184F946D004CEA0B /* HomeViewController.xib */,
 				60D0345E184F9432004CEA0B /* Supporting Files */,
 			);
 			path = FirstTest;
@@ -154,6 +162,7 @@
 				60D0346A184F9432004CEA0B /* Default.png in Resources */,
 				60D0346C184F9432004CEA0B /* Default@2x.png in Resources */,
 				60D0346E184F9432004CEA0B /* Default-568h@2x.png in Resources */,
+				60D03478184F946D004CEA0B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				60D03464184F9432004CEA0B /* main.m in Sources */,
 				60D03468184F9432004CEA0B /* AppDelegate.m in Sources */,
+				60D03477184F946D004CEA0B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
