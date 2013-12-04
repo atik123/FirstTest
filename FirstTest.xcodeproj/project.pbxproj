@@ -18,6 +18,10 @@
 		60D0346E184F9432004CEA0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D0346D184F9432004CEA0B /* Default-568h@2x.png */; };
 		60D03477184F946D004CEA0B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D03475184F946D004CEA0B /* HomeViewController.m */; };
 		60D03478184F946D004CEA0B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D03476184F946D004CEA0B /* HomeViewController.xib */; };
+		60D0347C184FB39D004CEA0B /* LisrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0347A184FB39D004CEA0B /* LisrViewController.m */; };
+		60D0347D184FB39D004CEA0B /* LisrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D0347B184FB39D004CEA0B /* LisrViewController.xib */; };
+		60D03481184FB475004CEA0B /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D0347F184FB475004CEA0B /* DetailsViewController.m */; };
+		60D03482184FB475004CEA0B /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D03480184FB475004CEA0B /* DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		60D03474184F946D004CEA0B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		60D03475184F946D004CEA0B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		60D03476184F946D004CEA0B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		60D03479184FB39D004CEA0B /* LisrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisrViewController.h; sourceTree = "<group>"; };
+		60D0347A184FB39D004CEA0B /* LisrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisrViewController.m; sourceTree = "<group>"; };
+		60D0347B184FB39D004CEA0B /* LisrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LisrViewController.xib; sourceTree = "<group>"; };
+		60D0347E184FB475004CEA0B /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		60D0347F184FB475004CEA0B /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		60D03480184FB475004CEA0B /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,12 @@
 				60D03474184F946D004CEA0B /* HomeViewController.h */,
 				60D03475184F946D004CEA0B /* HomeViewController.m */,
 				60D03476184F946D004CEA0B /* HomeViewController.xib */,
+				60D03479184FB39D004CEA0B /* LisrViewController.h */,
+				60D0347A184FB39D004CEA0B /* LisrViewController.m */,
+				60D0347B184FB39D004CEA0B /* LisrViewController.xib */,
+				60D0347E184FB475004CEA0B /* DetailsViewController.h */,
+				60D0347F184FB475004CEA0B /* DetailsViewController.m */,
+				60D03480184FB475004CEA0B /* DetailsViewController.xib */,
 				60D0345E184F9432004CEA0B /* Supporting Files */,
 			);
 			path = FirstTest;
@@ -163,6 +179,8 @@
 				60D0346C184F9432004CEA0B /* Default@2x.png in Resources */,
 				60D0346E184F9432004CEA0B /* Default-568h@2x.png in Resources */,
 				60D03478184F946D004CEA0B /* HomeViewController.xib in Resources */,
+				60D0347D184FB39D004CEA0B /* LisrViewController.xib in Resources */,
+				60D03482184FB475004CEA0B /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +194,8 @@
 				60D03464184F9432004CEA0B /* main.m in Sources */,
 				60D03468184F9432004CEA0B /* AppDelegate.m in Sources */,
 				60D03477184F946D004CEA0B /* HomeViewController.m in Sources */,
+				60D0347C184FB39D004CEA0B /* LisrViewController.m in Sources */,
+				60D03481184FB475004CEA0B /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
