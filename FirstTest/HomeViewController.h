@@ -12,6 +12,9 @@
     
     IBOutlet UILabel *displayLabel;
     
+    IBOutlet UIImageView *imageView1;
+    IBOutlet UIImageView *imageView2;
+    
 }
 
 @end

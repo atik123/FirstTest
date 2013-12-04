@@ -51,7 +51,18 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
-    displayLabel.text = [NSString stringWithFormat:@"You clicked on view"];
+    UITouch *currentTouch = [[event allTouches] anyObject];
+    CGPoint currentTouchPoint = [currentTouch locationInView:self.view];
+    
+    if (CGRectContainsPoint(imageView1.frame, currentTouchPoint)) {
+        displayLabel.text = [NSString stringWithFormat:@"You clicked on 1st imageview."];
+    }
+    else if (CGRectContainsPoint(imageView2.frame, currentTouchPoint)) {
+        displayLabel.text = [NSString stringWithFormat:@"You clicked on 2nd imageview."];
+    }
+    else {
+        displayLabel.text = [NSString stringWithFormat:@"You clicked on view"];
+    }
     
 }
 
